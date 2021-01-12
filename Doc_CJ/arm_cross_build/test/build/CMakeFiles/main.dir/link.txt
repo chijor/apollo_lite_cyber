@@ -1,0 +1,1 @@
+/home/jun/Desktop/GCC-Linaro-7.5.0-2019.12/bin/aarch64-linux-gnu-g++      CMakeFiles/main.dir/main.cpp.o  -o main -rdynamic 

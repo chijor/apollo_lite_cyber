@@ -17,3 +17,11 @@ SET (CMAKE_CXX_COMPILER /home/jun/Desktop/GCC-Linaro-7.5.0-2019.12/bin/aarch64-l
 
 
 注意test只是一个小demo  cyberRT是topic收发demo
+
+
+二、交叉编译对 ./configure的配置
+详见文档default_for_configure
+
+三、交叉编译依赖的python.so
+将包含有python.so的aarch64-linux-gnu文件夹放在Gcc的include下，而不是放在/usr下
+GCC-Linaro-7.5.0-2019.12可自行网上下载
